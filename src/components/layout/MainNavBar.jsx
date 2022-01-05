@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import styles from './MainNavBar.module.scss';
 
 const MainNavBar = () => {
     return (
-        <header>
-            <div>React MeetUps</div>
+        <header className={styles.header}>
+            <div className={styles.logo}>React MeetUps</div>
             <nav>
                 <ul>
                     <li>
